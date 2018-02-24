@@ -1,0 +1,27 @@
+{
+  "name": "top",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Dieter Luypaert <dieterluypaert@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint models/",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "~4.15.0",
+    "eslint-config-muriki": "~10.0.1",
+    "eslint-plugin-muriki": "~1.0.0"
+  },
+  "dependencies": {
+    "@stamp/it": "~1.0.1",
+    "@std/esm": "~0.19.2",
+    "ajv": "~6.0.1",
+    "uuid": "~3.1.0"
+  },
+  "@std/esm": {
+    "cjs": true
+  }
+}
